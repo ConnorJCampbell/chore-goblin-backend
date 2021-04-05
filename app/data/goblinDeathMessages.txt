@@ -1,0 +1,13 @@
+GOBLIN gets knocked out!
+GOBLIN falls to 0 HP!
+GOBLIN succumbs to their wounds!
+GOBLIN has lost the battle, but not the war!
+GOBLIN flees!
+GOBLIN grovels and begs for mercy!
+GOBLIN uses a smoke bomb and leaves!
+GOBLIN uses their escape plan!
+GOBLIN runs for their life!
+GOBLIN gets tossed into an ambulance!
+GOBLIN needs a medic! They can't fight!
+GOBLIN was eaten by a grue!
+$sudo rm -rf GOBLIN

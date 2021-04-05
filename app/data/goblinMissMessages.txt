@@ -1,0 +1,8 @@
+GOBLIN1 misses their attack against GOBLIN2!
+GOBLIN2 narrowly avoids GOBLIN1's attack!
+GOBLIN1 used tackle against GOBLIN2! The attack missed!
+GOBLIN1 rolled a natural 1 while attacking GOBLIN2!
+GOBLIN1 miscalculates their attack against GOBLIN2!
+GOBLIN1's spell against GOBLIN2 fizzles out!
+GOBLIN2 used dodge against GOBLIN1's attack!
+GOBLIN1 was loafing around and didn't attack GOBLIN2!

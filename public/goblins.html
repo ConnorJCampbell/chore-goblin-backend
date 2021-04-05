@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chore Goblin - Goblins</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web Access for Chore Goblin">
+    <meta name="keywords" content="Goblin">
+    <meta name="author" content="Gosling Goblins ltd.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap" rel="stylesheet"> 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <!-- Custom CSS End -->
+    <link rel="icon" href="/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+</head>
+<body class="lightBackground">
+    <div id="sideNavBar" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/chores">Chores</a>
+      <a href="/goblins">Goblins</a>
+      <a href="#" onclick="alert('This is under construction!')">My Goblin</a>
+      <a href="#" onclick="alert('This is under construction!')">History</a>
+      <a href="#" onclick="quitChoreGoblin()">Quit</a>
+    </div>
+    <div class="lightBackground" id="main">
+        <div class="container" onclick="openNav()">
+            <div>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div> 
+            </div>
+        </div> 
+        <h1>Chore Goblin Web Access - Goblins<div id="logoContainer"> <img src="/logo.png" id="logo" width="50px" height="50px"></div></h1>
+        
+        <div>
+            <h2 id="houseName"></h2>
+        </div>
+
+        <div id="goblinList">
+            <table id="goblinTable">
+                <tr>
+                    <th></th>
+                    <th>Goblin Name</th>
+                    <th>Owner Name</th>
+                    <th width="64px">HP</th>
+                    <th width="64px">Strength</th>
+                    <th width="64px">Defense</th>
+                    <th width="64px">Speed</th>
+                    <th>Free Points to Spend</th>
+                </tr>
+            </table>
+        </div>     
+    </div>
+    <script src="/goblinList.js" type="application/javascript"></script>
+    <script src="/sideNav.js" type="application/javascript"></script>
+    <script src="/quitButton.js" type="application/javascript"></script>
+</body>
+</html>
+
+
+
+
+
+
+

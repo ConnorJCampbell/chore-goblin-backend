@@ -1,0 +1,6 @@
+GOBLIN1 strikes GOBLIN2!
+GOBLIN1 stabs GOBLIN2!
+GOBLIN1 torches GOBLIN2!
+GOBLIN1 casts fire bolt on GOBLIN2!
+GOBLIN1 shoots an arrow at GOBLIN2!
+GOBLIN1 throws a dagger at GOBLIN2!

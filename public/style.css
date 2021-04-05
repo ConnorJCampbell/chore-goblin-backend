@@ -1,0 +1,185 @@
+html {
+    width: 70%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Dancing Script', sans-serif;
+    color: #5f582f;
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+.button {
+    border-radius: 2px;
+    border: 2px solid #000000;
+    background-color: #5d8146;
+    color: #000000;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 5px 10px;
+}
+.button:hover {
+    background-color: #7eb05f;
+    color: #000000;
+    cursor: pointer;
+    cursor: hand;
+}
+#houseCodeButtonContainer {
+    width: 100%;
+    margin:auto;
+    margin-right:auto;
+    display: inline-block;
+    text-align: center;
+}
+#logoContainer {
+    width: 100%;
+    margin:auto;
+    margin-right:auto;
+    display: inline-block;
+    text-align: center;
+}
+.centerText {
+    text-align: center;
+}
+.lightBackground {
+    background: #ebebeb;
+}
+.backgroundColorPrimary {
+    background: #5d8146;
+}
+.colorPrimary {
+    color: #5d8146;
+}
+.colorPrimaryDark {
+    color: #5f582f;
+}
+.colorAccent {
+    color: #8a6ba7
+}
+.colorText {
+    color: #000000;
+}
+table {
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
+ /* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #5f582f; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ABABAB;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
